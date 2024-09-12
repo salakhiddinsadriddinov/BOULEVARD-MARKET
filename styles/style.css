@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    min-width: 320px;
+}
+
+.header {
+    background: #282828;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.images {
+    display: flex;
+    gap: 25px;
+}
+
+.header__nav-list_item a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.official {
+    height: 700px;
+    background: url(../img/earphones.png) no-repeat center / cover;
+    display: flex;
+    align-items: center;
+}
+
+.official__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.official__title {
+    font-family: Prosto One;
+    font-size: 100px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.official__link {
+    width: 200px;
+    padding: 13px 14px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+}
+
+.official__link:hover {
+    color: #FFF;
+    background: #e22727;
+}
+
+.link {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img {
+    width: 16px;
+    height: 15px;
+}
+
+.image {
+    width: 100%;
+}
+
+.main {
+    background: rgb(18, 18, 18);
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+
+.block__1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.text {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.block__2 {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.block__3 {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.asdad {
+    position: relative;
+    padding: 0px 75px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.asdad::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asdad::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 79px;
+}
+
+.box__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 47px;
+    background: #FFF;
+    border-radius: 6px;
+    gap: 10px;
+}
+
+.iphone__title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.iphone__text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.iphone__btn {
+    padding: 7px 57px;
+    color: #FFF;
+    background: #151515;
+}
+
+.iphone__btn:hover {
+    color: #151515;
+    background: #e22727;
+}
+
+
+.footer {
+    background: #282828;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 81px 0;
+}
+
+.footer__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__nav-list_item a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+}
